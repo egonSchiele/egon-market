@@ -1,3 +1,10 @@
+---
+name: add a new table
+description: Guidance on adding a new table to the database schema using Kysely.
+allowed-tools: Bash(pnpm run kysely migrate make)
+---
+
+
 ## database changes
 In order to make a database change, you'll need to add a few things:
 1. Add a migration in `db/migrations`.

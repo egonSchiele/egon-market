@@ -1,4 +1,8 @@
-## API routes
+---
+name: create an api route
+description: Guidance on creating a new API route in the webapp.
+---
+
 All API routes live in `src/backend/routes/api`. Routing happens with the `express-file-routing` package. Each API route exports one or more functions named after HTTP verbs like get, post, put, and del (for DELETE). So, for example, if you wanted to create a new route like
 
 ```

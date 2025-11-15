@@ -1,3 +1,8 @@
+---
+name: middleware
+description: Add or update middleware to routes in the webapp.
+---
+
 ### Middleware
 
 You can add middleware by exporting an array of Express request handlers from your route file:

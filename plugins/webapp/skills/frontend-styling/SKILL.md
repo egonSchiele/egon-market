@@ -1,5 +1,9 @@
-## styling
-This repo uses a custom component library called `egon-ui` for styling. Prefer using the components exported from this package. Find the docs for these components here:
+---
+name: styling frontend components
+description: Guidance on styling frontend components in the webapp.
+---
+
+!IMPORTANT: This repo uses a custom component library called `egon-ui` for styling. Always prefer using the components exported from this package when possible. Find the docs for these components here:
 https://raw.githubusercontent.com/egonSchiele/ui/refs/heads/main/DOCS_FOR_CLAUDE.md
 
 For other ad-hoc styling, follow these guidelines:

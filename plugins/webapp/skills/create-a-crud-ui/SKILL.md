@@ -1,4 +1,7 @@
-## Guidance on creating a CRUD UI
+---
+name: create a crud ui
+description: Guidance on creating a CRUD UI for a model/resource in the webapp.
+---
 
 For instance, if you are creating a CRUD UI for a resource "Moods", please use the following structure:
 

@@ -1,0 +1,46 @@
+{
+  "name": "egon-market",
+  "owner": {
+    "name": "Aditya Bhargava"
+  },
+  "metadata": {
+    "description": "My marketplace for Claude Code commands and plugins",
+    "version": "0.0.1",
+    "homepage": "https://github.com/egonSchiele/egon-market"
+  },
+  "plugins": [
+    {
+      "name": "webapp",
+      "source": "./plugins/webapp",
+      "description": "For use with https://github.com/egonSchiele/webapp",
+      "version": "0.0.1",
+      "author": {
+        "name": "Aditya Bhargava"
+      },
+      "category": "workflow",
+      "keywords": ["webapp", "workflow", "node"]
+    },
+    {
+      "name": "util",
+      "source": "./plugins/util",
+      "description": "A bunch of utility commands",
+      "version": "0.0.1",
+      "author": {
+        "name": "Aditya Bhargava"
+      },
+      "category": "workflow",
+      "keywords": ["util", "workflow"]
+    },
+    {
+      "name": "greeting",
+      "source": "./plugins/greeting",
+      "description": "For testing",
+      "version": "0.0.1",
+      "author": {
+        "name": "Aditya Bhargava"
+      },
+      "category": "workflow",
+      "keywords": ["test"]
+    }
+  ]
+}

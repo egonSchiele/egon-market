@@ -1,3 +1,15 @@
+This is a web app written in React, TypeScript, and Node. Kysely is used as the ORM, and Vite is used to build assets. All the frontend code lives in `src/frontend`, while the backend lives in `src/backend`.
+
+
+## notable files and folders
+- `src/frontend/`: Contains all the frontend code, including React components, pages, and styles.
+- `src/backend/`: Contains all the backend code, including API routes, database access, and middleware.
+- `src/backend/routes/api/`: Contains all the API routes for the backend.
+- `src/common/`: Contains code that is shared between the frontend and backend, such as types and utility functions.
+
+## Troubleshooting
+If you get errors related to apiClient.ts, you may need to recompile it. Run `pnpm run compile-client` to do so.
+
 # Code Guidelines
 
 ## Relative vs. Absolute Imports
@@ -25,8 +37,6 @@ For error handling, instead of throwing exceptions, prefer using the `Result` ty
 - Avoid sharing state. Make as many things private as possible. This will make code much easier to reason about.
 - Have no side effects, if possible. All functions should be deterministic when possible, accepting inputs and returning outputs, and avoiding modifying any shared state in between. 
 
-## Guidance on reusable subcomponents.
-Please create reusable subcomponents where it would help to reduce code duplication. If you create a subcomponent, please put it in its own directory. For example, if you create a subcomponent `Bar.tsx` for a component `Foo.tsx`, please put it at `Foo/Bar.tsx`.
 
 ## Typescript coding guidelines
 - Always type your variables, function parameters, and return types explicitly. Avoid using `any`.
@@ -53,7 +63,6 @@ type User = {
 ## General code guidelines
 
 - Keep your code modular.
-- Each React component should only do one thing.
 - Use descriptive variable names, avoid one or two letter variable names.
 
 If finding yourself defining the same function or type over and over again, refactor it out into a common file.
